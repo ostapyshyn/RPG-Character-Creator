@@ -29,7 +29,7 @@ export default function Character({ characterData }) {
 
   const characterImageUrl = characterData.noData
     ? null
-    : './images/' + hat + '-' + shield + '-' + weapon + '.png'
+    : '../../public/' + hat + '-' + shield + '-' + weapon + '.png'
 
   return (
     <div className="character-container">
